@@ -88,7 +88,7 @@ Prophet is a procedure for forecasting time series data based on an additive mod
 
 ![Prophet-Univariate](https://knotmirai.com/wp-content/uploads/2022/01/download-2.png)
 
-#### Prophet Univariate Result
+#### Prophet Multivariate Result
 
 ![Prophet-Multivariate](https://knotmirai.com/wp-content/uploads/2022/01/download-3.png)
 
@@ -100,7 +100,7 @@ LSTM units are units of a recurrent neural network (RNN). An RNN composed of LST
 
 ![LSTM-Univariate](https://knotmirai.com/wp-content/uploads/2022/01/Capture-4-1200x541.jpg)
 
-#### LSTM Univariate Result
+#### LSTM Multivariate Result
 
 ![LSTM-Multivariate](https://knotmirai.com/wp-content/uploads/2022/01/Capture-5-1200x505.jpg)
 
