@@ -77,9 +77,6 @@ Time Series have several key features such as trend, seasonality, and noise. For
 
 Here in this kernel, we attempt to perform Time Series Analysis on the Historic Bitcoin Price data. We can easily see from the **Data Exploration** section, that the Bitcoin prices were quite volatile and inconsistent over the years.  Its very hard to perform Time series analysis on such volatile data. But here we try to explore the different Time series forecasting models. All the models used in this Kernel are models that can probably handle the non-stationarity data like bitcoin price.
 
-* Time Series forecasting with **Facebook Prophet**
-* Time Series forecasting with **LSTM**
-
 ### 1. Time Series Forecasting with Prophet
 
 Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well.
@@ -105,8 +102,6 @@ LSTM units are units of a recurrent neural network (RNN). An RNN composed of LST
 ![LSTM-Multivariate](https://knotmirai.com/wp-content/uploads/2022/01/Capture-5-1200x505.jpg)
 
 ## Summary
-
-The summary of this prediction result is:
 
 * LSTM model can handle the data like bitcoin price better than Prophet model and give the better result.
 * RSME of LSME model is ~1900.
