@@ -104,7 +104,7 @@ LSTM units are units of a recurrent neural network (RNN). An RNN composed of LST
 ## Summary
 
 * LSTM model can handle the data like bitcoin price better than Prophet model and give the better result.
-* RSME of LSME model is ~1800.
+* RSME of LSME model is ~1900.
 * The more factor we included; the better prediction result we will obtain.
 
 ## Future Plan
