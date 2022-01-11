@@ -2,10 +2,6 @@
 
 # Bitcoin Price Forecasting
 
-## The Project
-
-# Bitcoin Price Forecasting
-
 Bitcoin is the longest-running and most well-known cryptocurrency, first released as open-source in 2009 by the anonymous Satoshi Nakamoto. Bitcoin serves as a decentralized medium of digital exchange, with transactions verified and recorded in a public distributed ledger (the blockchain) without the need for a trusted record-keeping authority or central intermediary. Transaction blocks contain an SHA-256 cryptographic hash of previous transaction blocks and are thus "chained" together, serving as an immutable record of all transactions that have ever occurred. As with any currency/commodity on the market, bitcoin trading and financial instruments soon followed the public adoption of bitcoin and continue to grow. **Can we predict the price of bitcoin?**
 
 This Kernel is divided into two parts:-
@@ -59,6 +55,20 @@ This dataset contains:
 * Fear and Greed Value
 * Fear and Greed Classification
 
+## Data Exploration
+
+![Historical-Price](https://knotmirai.com/wp-content/uploads/2022/01/Capture-1200x467.jpg)
+
+![Trade-Count](https://knotmirai.com/wp-content/uploads/2022/01/Capture-3-1200x491.jpg)
+
+![Trade-Volume](https://knotmirai.com/wp-content/uploads/2022/01/Capture-2-1200x498.jpg)
+
+![Fear&Greed Value](https://knotmirai.com/wp-content/uploads/2022/01/Capture-1-1200x497.jpg)
+
+![Correlation](https://knotmirai.com/wp-content/uploads/2022/01/download-1.png)
+
+![Decomposition](https://knotmirai.com/wp-content/uploads/2022/01/download.png)
+
 ## Time Series Forecasting
 
 Time Series data is an experimental data which has been observed at different points in time (usually evenly spaced, like once a day or once an hour or once a minute). For example, the data of airline ticket sales per day is a time series. However, just because a series of events has a time element does not automatically make it a time series, such as the dates of major airline disasters, which are randomly spaced and are not time series. These types of random processes are known as point process.
@@ -88,11 +98,11 @@ LSTM units are units of a recurrent neural network (RNN). An RNN composed of LST
 
 #### LSTM Univariate Result
 
-![Prophet-Univariate](https://knotmirai.com/wp-content/uploads/2022/01/Capture-4-1200x541.jpg)
+![LSTM-Univariate](https://knotmirai.com/wp-content/uploads/2022/01/Capture-4-1200x541.jpg)
 
 #### LSTM Univariate Result
 
-![Prophet-Multivariate](https://knotmirai.com/wp-content/uploads/2022/01/Capture-5-1200x505.jpg)
+![LSTM-Multivariate](https://knotmirai.com/wp-content/uploads/2022/01/Capture-5-1200x505.jpg)
 
 ## Summary
 
