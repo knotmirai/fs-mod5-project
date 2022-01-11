@@ -81,11 +81,11 @@ Here in this kernel, we attempt to perform Time Series Analysis on the Historic 
 
 Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well.
 
-#### Prophet Univariate Result
+#### Prophet Univariate Result (RSME: 32,540)
 
 ![Prophet-Univariate](https://knotmirai.com/wp-content/uploads/2022/01/download-2.png)
 
-#### Prophet Multivariate Result
+#### Prophet Multivariate Result (RSME: 32,370)
 
 ![Prophet-Multivariate](https://knotmirai.com/wp-content/uploads/2022/01/download-3.png)
 
@@ -93,18 +93,18 @@ Prophet is a procedure for forecasting time series data based on an additive mod
 
 LSTM units are units of a recurrent neural network (RNN). An RNN composed of LSTM units is often called an LSTM network (or just LSTM). A common LSTM unit is composed of a cell, an input gate, an output gate and a forget gate. The cell remembers values over arbitrary time intervals and the three gates regulate the flow of information into and out of the cell.
 
-#### LSTM Univariate Result
+#### LSTM Univariate Result (RSME: 4,524)
 
 ![LSTM-Univariate](https://knotmirai.com/wp-content/uploads/2022/01/Capture-4-1200x541.jpg)
 
-#### LSTM Multivariate Result
+#### LSTM Multivariate Result (RSME: 1,876)
 
 ![LSTM-Multivariate](https://knotmirai.com/wp-content/uploads/2022/01/Capture-5-1200x505.jpg)
 
 ## Summary
 
 * LSTM model can handle the data like bitcoin price better than Prophet model and give the better result.
-* RSME of LSME model is ~1900.
+* RSME of LSME model is ~1800.
 * The more factor we included; the better prediction result we will obtain.
 
 ## Future Plan
